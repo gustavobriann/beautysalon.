@@ -1,3 +1,4 @@
+// Abre e fecha o menu quando clicar no ícone: hamburguer e x
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
