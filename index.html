@@ -8,6 +8,11 @@
     <title>OriginSix</title>
     <!--Icons-->
     <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!--Styles-->
     <link rel="stylesheet" href="style.css" />
     <!-- Fonts -->
@@ -136,67 +141,79 @@
       </section>
 
       <div class="divider-1"></div>
+
       <!-- TESTIMONIALS -->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ducimus omnis laboriosam fuga vero rerum impedit repudiandae.
-                  Explicabo nostrum impedit iure at quia totam.
-                </p>
-                <cite>
-                  <img src="assets/fotos/10.jpeg" alt="Foto de Wanessa Souza" />
-                  Wanessa Souza
-                </cite>
-              </blockquote>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus omnis laboriosam fuga vero rerum impedit
+                    repudiandae. Explicabo nostrum impedit iure at quia totam.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/10.jpeg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus omnis laboriosam fuga vero rerum impedit
+                    repudiandae. Explicabo nostrum impedit iure at quia totam.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/56.jpeg"
+                      alt="Foto de Franciele Venega"
+                    />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus omnis laboriosam fuga vero rerum impedit
+                    repudiandae. Explicabo nostrum impedit iure at quia totam.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/26.jpeg"
+                      alt="Fotos de Valeska Fabris"
+                    />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
             </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ducimus omnis laboriosam fuga vero rerum impedit repudiandae.
-                  Explicabo nostrum impedit iure at quia totam.
-                </p>
-                <cite>
-                  <img
-                    src="assets/fotos/56.jpeg"
-                    alt="Foto de Franciele Venega"
-                  />
-                  Franciele Venega
-                </cite>
-              </blockquote>
-            </div>
-
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ducimus omnis laboriosam fuga vero rerum impedit repudiandae.
-                  Explicabo nostrum impedit iure at quia totam.
-                </p>
-                <cite>
-                  <img
-                    src="assets/fotos/26.jpeg"
-                    alt="Fotos de Valeska Fabris"
-                  />
-                  Valeska Fabris
-                </cite>
-              </blockquote>
-            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
     </main>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- main.js-->
     <script src="main.js"></script>
   </body>
 </html>
