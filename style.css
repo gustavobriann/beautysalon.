@@ -412,6 +412,11 @@ nav.show div.icon-close {
   padding: 4rem 1rem;
 }
 
+/* Correção do swiper que eu indentifiquei pelo DevTools*/
+.swiper-pagination {
+  position: relative;
+}
+
 .swiper-pagination-bullet {
   width: 0.75rem;
   height: 0.75rem;
