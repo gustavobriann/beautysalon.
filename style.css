@@ -515,3 +515,15 @@ footer .social a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+/*========= MEDIA QUERIES =========*/
+/* extra large devices: 1200 > */
+
+/* large devices: 1023 > */
+/* large devices: 992 > */
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.2rem;
+  }
+}
+/* medium devices: 767 > */
