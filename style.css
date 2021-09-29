@@ -534,7 +534,7 @@ footer .social a:hover {
 
 /*========= MEDIA QUERIES =========*/
 /* extra large devices: 1200 > */
-  /* reusable classes */
+/* reusable classes */
 @media (min-width: 1200px) {
   .container {
     max-width: 1120px;
@@ -544,6 +544,14 @@ footer .social a:hover {
 
   .section {
     padding: 10rem 0;
+  }
+
+  .section header,
+  #testimonials header {
+    max-width: 32rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .button {
@@ -591,6 +599,28 @@ footer .social a:hover {
     order: 0;
     max-width: 24rem;
     text-align: left;
+  }
+
+  /* about */
+  #about .container {
+    margin: 0 auto;
+    grid-auto-flow: column;
+  }
+
+  /* services */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* testimonials */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   main {
