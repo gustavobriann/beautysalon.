@@ -629,6 +629,20 @@ footer .social a:hover {
     margin-right: auto;
   }
 
+  #testimonials .title {
+    margin-bottom: 2rem;
+  }
+
+  #testimonials .testimonials {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  #testimonials .testimonial {
+    max-width: 350px;
+  }
+
   /* contact */
   #contact .container {
     grid-auto-flow: column;
