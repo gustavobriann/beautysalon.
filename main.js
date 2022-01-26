@@ -32,7 +32,7 @@ function changeHeaderWhenScroll() {
 }
 
 /* Testimonials carousel slider swiper */
-const swiper = new Swiper('.swiper-container', {
+/* const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination'
@@ -45,7 +45,7 @@ const swiper = new Swiper('.swiper-container', {
       setWrapperSize: true
     }
   }
-})
+}) */
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
 const scrollReveal = ScrollReveal({
