@@ -8,3 +8,26 @@
     width="700px"
   />
 </div>
+
+<div>
+  <h2>NLW Togheter - Rocketseat</h2>
+  <p>
+    Esse WebSite foi desenvolvido através de um evento.
+  </p>
+  <p>
+    Disponibilizado através da
+    <a
+      href="https://app.rocketseat.com.br/node/mission-origin/group/nlw-together-origin/lesson/aula-01-liftoff-4"
+      >Rocketsaet</a
+    >
+  </p>
+</div>
+
+<div>
+  <h2>Tecnologias Usadas</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+  </ul>
+</div>
