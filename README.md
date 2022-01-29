@@ -17,7 +17,7 @@
   <p>
     Disponibilizado através da
     <a
-      href="https://app.rocketseat.com.br/node/mission-origin/group/nlw-together-origin/lesson/aula-01-liftoff-4"
+      href="https://app.rocketseat.com.br/node/mission-origin/group/nlw-together-origin/lesson/aula-01-liftoff-4" target="_blank"
       >Rocketsaet.</a
     >
   </p>
@@ -35,6 +35,6 @@
 <div>
   <h2>Considerações Finais</h2>
   <p>
-    Este foi um projeto desenvolvido no intuito de adquirir conhecimento, com a tutoria do <a href="https://github.com/maykbrito">@maykbrito</a>
+    Este foi um projeto desenvolvido no intuito de adquirir conhecimento, com a tutoria do <a href="https://github.com/maykbrito" target="_blank">@maykbrito</a>.
   </p>
 </div>
